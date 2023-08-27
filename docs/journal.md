@@ -1,4 +1,4 @@
-# Documentation Of What I Did
+# Project Journal
 
 ## Set Up the Repo
 I set up the repo so that it is public, I am the only contributor, main branch is protected, but I can (due to being the only contributor) merge without approval. I set up a personal access token for my local machine. I will work in feature branches. This, for example, is done in the "documentation" branch.
