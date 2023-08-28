@@ -25,11 +25,18 @@ Git will not push empty directories. Most likely usually it is better like that.
 
 I made a lot of directories now and most have subdirectories themselves. I will use the Shell to add the all the README.md like this.
 
-```bash
+```zsh
+# work in the project's base directory
+# get overview about sub directories
 $ ls
 > README.md		data			docs			models			notebooks		requirements.txt	scripts			setup.py		src
 
-
+# copy the base directories README.md to each sub directory recursively
+# so far the README.md is still empty, so I do not need to use another empty file
+# find . -type d: find all directories and sub directories recursively
+#-not -path '*/.git': there are git directories as well. do not mess with them, exclude them from this
+# -exec cp README.md '{}' \; copy the README.md to all found directories
+$ find . -type d -not -path '*/.git' -exec cp README.md '{}' \;
 ```
 
 #### Main Resources for Directory Structure
