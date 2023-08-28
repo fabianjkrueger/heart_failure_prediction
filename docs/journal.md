@@ -1,8 +1,12 @@
 # Project Journal
 
 ## Set Up the Repo
+
+### General
 I set up the repo so that it is public, I am the only contributor, main branch is protected, but I can (due to being the only contributor) merge without approval. I set up a personal access token for my local machine. I will work in feature branches. This, for example, is done in the "documentation" branch.
 
+### Directory Structure
+#### Thought Process
 In past projects, I had suboptimal directory structures. While I improved over the time, I still think there is a lot of room for improvements. I finally want to move to best practices and adapt a standardized and generic approach that is logical and easy to understand for others. I found two very reasonable approaches that resemble another strongly. 
 
 1. Use Cookie Cutter. This automatically set up a directory structure for you that fulfills all criteria mentioned above and more. This is a well thought through function and the structure is great. However, I will not use it for this project. Since this is the first time I will use standardize directories like src, docs, notebooks etc., I want to set them up manually to get a better understanding of why they are used. Furthermore, I feel like Cookie Cutter could be slightly overkill for my first project. I will not need all of its directories. It is even one of Cookie Cutter's own philosophies to adapt details to needs while keeping the general structure.
@@ -10,6 +14,35 @@ In past projects, I had suboptimal directory structures. While I improved over t
 
 Conclusion: I will set up the directory structure manually this time and hope to use Cookie Cutter in my next or one of my future projects. However, I will incorporate many of Cookie Cutter's directories/elements.
 
+#### Implementation
+I make a `src` directory by combining Cookie Cutter's `src` and ericmjl's `projectname` directories.
+
+Git will not push empty directories. Most likely usually it is better like that. Also, usually you do not add a README.md to every subdirectory. I will still do it here. There are several reasons for this:
+
+1. I want all the subdirectories to be in GitHub right away, since the main point of this step is to implement the directory structure. If they cannot be pushed, what is the point? I want to be able to access the project from anywhere! Adding a README.md allows me to push.
+2. This is the first time I stick to this specific directory structure. Having a README.md in every directory allows for a maximum level of readability. Also for someone having a look at my project, this is going to prove very helpful to get an overview.
+3. It just does not hurt to have it, even though it is not usual. If it turns out that it does hurt in some specific directory, I will remove it. In the end, I will also remove all the empty ones.
+
+I made a lot of directories now and most have subdirectories themselves. I will use the Shell to add the all the README.md like this.
+
+```bash
+$ ls
+> README.md		data			docs			models			notebooks		requirements.txt	scripts			setup.py		src
+
+
+```
+
+#### Main Resources for Directory Structure
+While there are a lot of resources out there, I decided to use these two, since for me they seem to make the most sense. I combine them and make some adjustments.
+
+- Cookie Cutter: http://drivendata.github.io/cookiecutter-data-science/
+- How to organize your Python data science project by ericmjl: https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510
+
+
+#### Idea for the future: ShellScripting
+Right now, I still need to read a lot and based on this, decide which directories exactly I am going to use. In future projects, I hope, I can either just use Cookie Cutter or perhaps if I decided what my needs are, I can write a Shell script that sets up the directory structure for me. This would be super handy, because I could re-run it and it would allow for significantly better documentation. This time, due to planning while doing, this is not preferable though.
+
+### Virtual Environment and Packages
 I try to set up a virtual environemt using this workflow:
 
 1. Run mkvirtualenv when creating a new project
