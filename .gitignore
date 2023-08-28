@@ -1,0 +1,11 @@
+##### GITIGNORE #####
+
+######
+# ignore changes to the data directories
+# exception: README files, because they were made before the .gitignore file
+
+data
+
+# comment1: monitor if it works the way intended!
+# comment2: think about if it is ACTUALLY USEFUL to ignore the data files. Anyway, I can just remove this if at any point I want to upload it.
+#####
