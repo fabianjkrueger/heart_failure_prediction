@@ -45,7 +45,6 @@ While there are a lot of resources out there, I decided to use these two, since 
 - Cookie Cutter: http://drivendata.github.io/cookiecutter-data-science/
 - How to organize your Python data science project by ericmjl: https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510
 
-
 #### Idea for the future: ShellScripting
 Right now, I still need to read a lot and based on this, decide which directories exactly I am going to use. In future projects, I hope, I can either just use Cookie Cutter or perhaps if I decided what my needs are, I can write a Shell script that sets up the directory structure for me. This would be super handy, because I could re-run it and it would allow for significantly better documentation. This time, due to planning while doing, this is not preferable though.
 
@@ -58,6 +57,9 @@ I try to set up a virtual environemt using this workflow:
 4. If you find you need to install another package, run pip freeze > requirements.txt again and commit the changes to version control.
 
 Using something like Docker would be overkill right now. I can try this in a later and larger project.
+
+### License
+This is a small project for showcasing some data analysis. It is unlikely that someone will build on it, because most likely I will not produce an application or production code. Nonetheless, I want it to be open source, so that if people want to use it, they can. Also, I want protection against liability. I do not want virality. This mostly rules out Copyleft and Public Domain. Creative Commons is not nessessarily even open source. For this project, the best options are MIT, BSD, and Apache. They are all pretty similar. After comparison, I found that the MIT license is sufficient for the scope of this project. It fulfills all my needs and does not make things overly complicated for others to use. Under it, the code in this repository is open source by the definition of the open source initiative (OSI) can be modified, distributed, sublicensed, used privately and commercially, but I cannot be held liable.
 
 ## Ideation
 Now I begin to ideate milestones and a general plan with stages. I set the stages/milestones as issues. Not complete or comprehensive right now, since the project is going to evolve.
