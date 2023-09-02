@@ -1,4 +1,5 @@
 # Project Journal
+This is the journal I wrote while completing the project. It is structured in some way, but not nearly as much as a blog post or an actual report would be. In contrast the mentioned other formats, this journal is written in small chunks for me to document my thought processes, decisions and progress. It is not to be interpreted as a polished document for presentation. For such a document, please see the blog or a report.
 
 ## Set Up the Repo
 
@@ -65,3 +66,7 @@ This is a small project for showcasing some data analysis. It is unlikely that s
 Now I begin to ideate milestones and a general plan with stages. I set the stages/milestones as issues. Not complete or comprehensive right now, since the project is going to evolve.
 
 Main onjective right now: Frame the plan. I need to find an interesting research question or project idea to solve and with it a data set allowing to do so. I could also go the other way round and look for data sets, then see what I can do with them. I want to do data cleaning, visualisations and finally some predictive modelling using Scikit-learn.
+
+## Data Acquisition
+I decided to use Kaggle's API via the command line to download the data instead of the GUI on its website. This saves several steps of moving files and allows for great potential of automation (for example in future projects). I wrote a small notebook downloading a stroke prediction data set. Whether it is going to be this data set I use or another one still remains to be decided.
+
