@@ -68,5 +68,7 @@ Now I begin to ideate milestones and a general plan with stages. I set the stage
 Main onjective right now: Frame the plan. I need to find an interesting research question or project idea to solve and with it a data set allowing to do so. I could also go the other way round and look for data sets, then see what I can do with them. I want to do data cleaning, visualisations and finally some predictive modelling using Scikit-learn.
 
 ## Data Acquisition
-I decided to use Kaggle's API via the command line to download the data instead of the GUI on its website. This saves several steps of moving files and allows for great potential of automation (for example in future projects). I wrote a small notebook downloading a stroke prediction data set. Whether it is going to be this data set I use or another one still remains to be decided.
+I decided to use Kaggle's API via the command line to download the data instead of the GUI on its website. This saves several steps of moving files and allows for great potential of automation (for example in future proj
+
+Jan 12, 2024: After focusing on other projects, I picked up work on this again today. I selected a data set about heart failure and adapted the data acquisition notebook and framed the idea. Since there has been a break now, I also include the date. I can still remove it from this journal. Anyway, the data is now downloaded and the decision about the specific data set, projects objective and scope has finally been made.
 
