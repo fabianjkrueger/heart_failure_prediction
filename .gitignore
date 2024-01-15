@@ -4,3 +4,7 @@
 # ignore changes to the data directories
 # exception: README files in data directory will not be ignored, because they were added before the .gitignore file
 data/
+
+#####
+# ignore the cached python code in the __pycache__ directories
+**/__pycache__/

@@ -90,6 +90,6 @@ https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data
 The dataset is very well documented and has a lot of nice features that can be used for predictive modeling.
 
 ## Exploratory Data Analysis (EDA)
-January 15, 2024: Today, I start the EDA.
+January 15, 2024: Today, I started the EDA. Tried to set up config.py, to access paths to specific datasets using imported variables. It does not yet find src, however. I need to find a solution for this.
 
 
