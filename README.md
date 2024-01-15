@@ -1,13 +1,21 @@
 # Machine Learning Portfolio Project
 
-In the following weeks, I will complete another machine learning project here.
+I currently complete another machine learning project here.
 
 Right now, this is still work in progress.
 
-## Current Stage: Ideation
-Set up infrastructure like a directory structure that aligns with best practices. Already prepare things like virtual environment and documentation etc.
+My plan is to fit a simple model to heart failure data from Kaggle and to predict patient survival.
 
-Look at the big picture, make a plan, define a goal or question to solve and measure of success.
-Have a look at publicly available data sets and see what can be done with them.
+## Current Stage: Exploratory Data Analysis (EDA)
 
-## Next Stage: Exploratory Data Analysis, Data Cleaning, Transformation, Feature Engineering
+Can be found in `notebooks/02-exploratory_data_analysis.ipynb`.
+
+## Next Stage: Data Cleaning, Transformation, Feature Engineering
+
+Optimize features for training a model.
+
+## Further Stages and Milestones
+- Model Training
+- Evaluation
+- Potentially deployment (depending of if this makes any sense for this project)
+- Final documentation (blog post)
